@@ -26,10 +26,10 @@
             @foreach ($fkilkomss as $f)
           <tr>
             <th scope="row">{{$f->id}}</th>
-            <td>{{$f->id}}</td>
             <td>{{$f->nidn}}</td>
             <td>{{$f->nama_dosen}}</td>
             <td>{{$f->kode_matakuliah}}</td>
+            <td>{{$f->matakuliah}}</td>
             <td>{{$f->sks}}</td>
             <td>{{$f->jurusan}}</td>
           </tr>
